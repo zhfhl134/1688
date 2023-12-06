@@ -1,12 +1,75 @@
 .App {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.module{
+  background-image: url('./img/background.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 690px;
+  height: 181px;
+  display: flex;
+}
+.money{
+  font-size: 68px;
+  width: 97px;
+  height: 80px;
+  color: #A45927;
+  font-family: PingFang SC;
+  margin-top: 38px;
+  margin-left: 25px;
+}
+.yuan{
+  font-size: 28px;
+  width: 28px;
+  height: 40px;
+  color: #A45927;
+  font-family: PingFang SC;
+  margin-top: 69px;
+  margin-left: 4px;
+}
+.title{
+  font-family: PingFang SC;
+  color: #FFE9B0;
+  width: 300px;
+  margin-top: 25px;
+  margin-left: 43px;
+}
+.big-title{
+  font-size: 30px;
+  height: 36px;
+  font-weight: bold;
+}
+.description{
+  font-family: PingFang SC;
+  color: #FFE9B0;
+  letter-spacing: 1px;
+  font-size: 22px;
+  margin-top: 4px;
+}
+.show-time{
+  display: flex;
+  margin-top: 16px;
+  font-size: 16px;
+}
+.status{
+  color: #a45927;
+  width: 146px;
+  height: 64px;
+  border-radius: 32px;
+  background: #FFE9B0;
+  font-size: 30px;
+  margin-top: 54px;
+  margin-left: 22px;
+  text-align: center;
+  line-height: 64px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
